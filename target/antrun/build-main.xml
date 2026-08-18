@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <java fork="true" classname="com.vit.demo.AppTest" failonerror="true">
+      <classpath>
+        <path refid="maven.test.classpath" />
+      </classpath>
+    </java>
+  </target>
+</project>
